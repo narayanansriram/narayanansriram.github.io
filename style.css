@@ -1,0 +1,21 @@
+h1{
+    background:rgba(1,1,1,1);
+    color: teal;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.required::after{
+    content: "*";
+}
+
+a:hover {
+    background: pink;
+}
+
